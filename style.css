@@ -1,0 +1,54 @@
+
+.container{
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    top: 25%;
+    left: 20%;
+    background-color: lightgrey;
+
+}
+
+.switch-design{
+    position: absolute;
+
+}
+
+.toggle-switch{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;
+    background: whitesmoke;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.2);
+}
+
+.toggle-switch:checked{
+    background: greenyellow;
+}
+
+.toggle-switch:before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    transform: scale(0.9);
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,.7);
+    transition: .5s;
+}
+
+.toggle-switch:checked:before{
+    left:40px;
+}
+
+
+
+
+
+
